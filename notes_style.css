@@ -1,0 +1,61 @@
+
+* {
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #ffffff;
+	max-width: 1200px;
+	margin: 0px auto;
+	font-family:tahoma;
+	
+}
+
+.page_content {
+	background-color: #255A8F;
+	border-radius: 25px;
+	padding:15px;
+	margin: 20px auto;
+	box-shadow: 5px 10px 5px #888888;
+}
+
+.heading {
+	color:#ffffff;
+	text-align:center;
+	font-size:40px;
+}
+
+.lesson {
+	background-color: #D3DBE9;
+	border-radius: 10px;
+	margin:10px;
+	padding:10px;
+}
+
+.lesson_heading {
+	font-size:30px;
+	padding:10px;
+	padding-bottom:0px;
+	color: #255A8F;
+	text-align: center;
+}
+
+.concept {
+	font-size:20px;
+	font-weight:800;
+}
+
+.content {
+	font-weight:100;
+}
+
+.code {
+	background-color: #000000;
+	color: #21FF00;
+	padding:5px;
+	border-radius: 2px;
+	font-family: Monospace;
+}
