@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Intro to Programming Nanodegree Notes - By Vaughn Lester</title>
+  
+  <link rel="stylesheet" href="notes_style.css">
+
+</head>
+
+<body>
+	<div class="page_content">
+		<h1 class="heading">Intro to Programming Nanodegree Notes</h1>
+		<div class="lesson">
+			<h2 class="lesson_heading">The Basics of the Web and HTML</h2>
+			<div>
+				<h3 class="concept">- The Web</h3>
+				<div class="content">
+					<p>
+						The web is a collection of pages made with HTML. These pages are used to display content or to point to other pages with content using URLs. Content can be many things including plain text, video, music, documents and HTML.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h3 class="concept">- HTML</h3>
+				<div class="content">
+					<p>
+						HTML, or Hyper Text Markup Language is the language used to construct web pages. It uses a defined set of tags that allows a page creator to manipulate and display content exactly how they want.
+					</p>
+					<p>
+						Tags come in two different types, inline and block. Inline elements manipulate the content within a line and untouched content flows seamlessly before and after it. Block elements, however, create a box around the content that takes up space with a definable width and height.
+					</p>
+					<p>
+						A tag, or set of tags with their associated content is known as an element. Elements can have attributes associated with them for various functionality including, but not limited to: CSS Styling, hyperlink URL, image sources and alternate text.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h3 class="concept">- URLs</h3>
+				<div class="content">
+					<p>
+						URLs can be thought of as pointers that direct a user from one web page to another in order to view the content. This is essentially the residential address of the page on the World Wide Web and tells your browser exactly where to find it when you click on the URL.
+					</p>
+				</div>
+			 </div>
+			 <div>
+				<h3 class="concept">-Using Code</h3>
+				<div class="content">
+					<p>
+						Code is very powerful, but also very specific. As a coder, it is important to understand what your code will do and how to use it. Computers are stupid and lack the ability to make assumptions about your code that a person might make. This is, however, a good thing because it means the computer can, and will, only do exactly as you tell it to. No more, no less.
+					</p>
+				</div>
+			 </div>
+		</div>
+		<div class="lesson">
+			<h2 class="lesson_heading">Creating a Structured Document with HTML</h2>
+			<div>
+				<h3 class="concept">- Page Structure</h3>
+				<div class="content">
+					<p>
+						The structure of a web page is controlled using HTML. The base HTML word, a tag, is used to create elements in a tree like structure that comply with the Document Object Model. The tag you use, determines what type of element is created and how it needs to be treated. Elements are a set of opening and closing tags with some content encapsulated, this content can be text, images or other elements. As part of the DOM, all elements are treated as rectangular even if they don't appear to be. Once you begin to understand this box like structure of a web page it becomes much easier to begin de-constructing an existing page and to write up HTML elements that replicate the layout skeleton.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h3 class="concept">- Page Styling</h3>
+				<div class="content">
+					<p>
+						CSS is the styling language of a web page. It allows us to control how HTML structure and content appears on the web page such as colouring, font size, margins and positioning. Class attributes can be assigned to elements in order to apply styling to the element. Then the visual style of the element can be quickly and easily manipulated using CSS to write parameters for the class.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="lesson">
+			<h2 class="lesson_heading">Adding CSS Style to HTML Structure</h2>
+			<div>
+				<h3 class="concept">- Why CSS?</h3>
+				<div class="content">
+					<p>
+						Cascading Style Sheets are a powerful tool that allows a coder to avoid repetition by referencing the same code from multiple elements or pages. This is is important for several reasons. Firstly, it decreases the amount of time spent coding the page, but also makes the page easier to manage down the line when adjustments or updates need to be made to the styling. In a matter of minutes you can update the style of a website no matter how many pages or elements are on the site.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h3 class="concept">- How CSS Works</h3>
+				<div class="content">
+					<p>
+						To get started using CSS, your HTML page needs to reference your style sheet in the head element. Once the browser knows where to find your CSS, it is able to scan through the rules and find the closest matching selector for each of the elements on your page. CSS selectors can be HTML Tags, IDs, Classes or Pseudo-classes. Rules are applied to elements and all child elements in the document structure will inherit styling from their parent, unless a child element matches another rule with overlapping properties. In this case, the more specific rule applies to the child element preferentially. HTML elements consist of several layers under the Box Model, from the center most item outwards these are Content, Padding, Border and Margins. All of these components contribute to the overall dimensions of elements and we can use CSS to control them. An understanding of this structure is crucial in achieving the correct layout of elements on the page.
+					</p>
+				</div>
+			</div>
+			<div>
+				<h3 class="concept">- Using CSS</h3>
+				<div class="content">
+					<p>
+						Styling in CSS is defined by the use of one or more properties called the declaration. Properties are grouped to a selector between and opening and closing brace immediately after a selector.Each property is closed off with a semi-colon and for human readability, properties are usually each written on a new line. With white space removed, all that is required for a CSS rule to work is the following format.
+					</p>
+					<div class="code">
+							[SELECTOR] { [PROPERTY_1]:[VALUE]; [PROPERTY_2]:[VALUE]; } 
+						</div>
+					<p>
+						When creating a page from scratch, we usually follow a simple process of Code, Test, Refine and repeat until we achieve the desired structure, layout and look shown in the mockup we received.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
